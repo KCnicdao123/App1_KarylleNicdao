@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f2d790">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="206dp"
+        android:layout_height="217dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="284dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/applogo2" />
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="274dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/anton"
+        android:text="Welcome to the MusiCal App"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/Instructions"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.99" />
+
+    <TextView
+        android:id="@+id/Instructions"
+        android:layout_width="298dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="32dp"
+        android:shadowColor="@color/black"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2"
+        android:text="Select a mood that you are feeling on the first set of buttons. Then select a genre of music that you would like on the second set of buttons. Press enter to receive a song based on the mood and genre you selected."
+        android:textColor="@color/white"
+        android:textSize="13dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
