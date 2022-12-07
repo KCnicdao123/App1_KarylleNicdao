@@ -8,19 +8,34 @@
     android:background="@drawable/_3_pro___4">
 
     <TextView
-        android:id="@+id/appName"
-        android:layout_width="244dp"
-        android:layout_height="124dp"
+        android:id="@+id/Mood"
+        android:layout_width="206dp"
+        android:layout_height="56dp"
         android:fontFamily="@font/anton"
-        android:text="MusiCal"
+        android:hint="Select a mood"
         android:textAlignment="center"
-        android:textSize="75dp"
+        android:textSize="35dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.904"
+        app:layout_constraintHorizontal_bias="0.888"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.059" />
+        app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:id="@+id/Genre"
+        android:layout_width="231dp"
+        android:layout_height="54dp"
+        android:fontFamily="@font/anton"
+        android:hint="Select a genre"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.911"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.166" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -35,6 +50,190 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.031"
-        app:srcCompat="@drawable/applogo2" />
+        app:layout_constraintVertical_bias="0.029"
+        app:srcCompat="@drawable/applogo2"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/calBtn"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#f4ca5a"
+        android:fontFamily="sans-serif-black"
+        android:onClick="Calculate"
+        android:text="CALCULATE"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/genre3"
+        app:layout_constraintVertical_bias="0.305"
+        tools:ignore="MissingConstraints" />
+
+    <ToggleButton
+        android:id="@+id/mood1"
+        android:layout_width="162dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="212dp"
+        android:background="@drawable/btn_toggles"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textOff="Happy"
+        android:textOn="Happy"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ToggleButton
+        android:id="@+id/mood2"
+        android:layout_width="162dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/btn_toggles"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textOff="Sad"
+        android:textOn="Sad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toEndOf="@+id/mood1"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ToggleButton
+        android:id="@+id/mood3"
+        android:layout_width="162dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/btn_toggles"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textOff="Anxious"
+        android:textOn="Anxious"
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mood1"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <ToggleButton
+        android:id="@+id/mood4"
+        android:layout_width="162dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/btn_toggles"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textOff="Excited"
+        android:textOn="Excited"
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/mood3"
+        app:layout_constraintTop_toBottomOf="@+id/mood2"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <ToggleButton
+        android:id="@+id/genre1"
+        android:layout_width="162dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_toggles"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textOff="Pop"
+        android:textOn="Pop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        tools:ignore="MissingConstraints" />
+
+    <ToggleButton
+        android:id="@+id/genre2"
+        android:layout_width="162dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/btn_toggles"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textOff="RnB"
+        android:textOn="RnB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/genre1"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        tools:ignore="MissingConstraints" />
+
+    <ToggleButton
+        android:id="@+id/genre3"
+        android:layout_width="162dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_toggles"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textOff="Country"
+        android:textOn="Country"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/genre1"
+        tools:ignore="MissingConstraints" />
+
+
+    <ToggleButton
+        android:id="@+id/genre4"
+        android:layout_width="162dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/btn_toggles"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textOff="Gospel"
+        android:textOn="Gospel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toEndOf="@+id/genre3"
+        app:layout_constraintTop_toBottomOf="@+id/genre2"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="91dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="368dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/plus"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="52dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.699"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/plus"
+        tools:ignore="MissingConstraints" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

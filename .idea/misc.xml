@@ -4,9 +4,31 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/karyl/AndroidStudioProjects/Assessment2_MusiCalcu/app/src/main/res/drawable/_3_pro___4.xml" value="0.2415" />
-        <entry key="..\:/Users/karyl/AndroidStudioProjects/Assessment2_MusiCalcu/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/karyl/AndroidStudioProjects/Assessment2_MusiCalcu/app/src/main/res/drawable/btn_toggles.xml" value="0.1" />
+        <entry key="..\:/Users/karyl/AndroidStudioProjects/Assessment2_MusiCalcu/app/src/main/res/layout/activity_main.xml" value="0.375" />
         <entry key="..\:/Users/karyl/AndroidStudioProjects/Assessment2_MusiCalcu/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Users/karyl/AndroidStudioProjects/Assessment2_MusiCalcu/app/src/main/res/layout/anxious_country.xml" value="0.21739130434782608" />
+        <entry key="..\:/Users/karyl/AndroidStudioProjects/Assessment2_MusiCalcu/app/src/main/res/layout/anxious_gospel.xml" value="0.21739130434782608" />
+        <entry key="..\:/Users/karyl/AndroidStudioProjects/Assessment2_MusiCalcu/app/src/main/res/layout/anxious_rnb.xml" value="0.21739130434782608" />
+        <entry key="..\:/Users/karyl/AndroidStudioProjects/Assessment2_MusiCalcu/app/src/main/res/layout/anxoius_pop.xml" value="0.25" />
+        <entry key="..\:/Users/karyl/AndroidStudioProjects/Assessment2_MusiCalcu/app/src/main/res/layout/excited_country.xml" value="0.21739130434782608" />
+        <entry key="..\:/Users/karyl/AndroidStudioProjects/Assessment2_MusiCalcu/app/src/main/res/layout/excited_gospel.xml" value="0.21739130434782608" />
+        <entry key="..\:/Users/karyl/AndroidStudioProjects/Assessment2_MusiCalcu/app/src/main/res/layout/excited_pop.xml" value="0.21739130434782608" />
+        <entry key="..\:/Users/karyl/AndroidStudioProjects/Assessment2_MusiCalcu/app/src/main/res/layout/excited_rnb.xml" value="0.21739130434782608" />
+        <entry key="..\:/Users/karyl/AndroidStudioProjects/Assessment2_MusiCalcu/app/src/main/res/layout/happy_ambient.xml" value="0.21739130434782608" />
+        <entry key="..\:/Users/karyl/AndroidStudioProjects/Assessment2_MusiCalcu/app/src/main/res/layout/happy_country.xml" value="0.335" />
+        <entry key="..\:/Users/karyl/AndroidStudioProjects/Assessment2_MusiCalcu/app/src/main/res/layout/happy_gospel.xml" value="0.21739130434782608" />
+        <entry key="..\:/Users/karyl/AndroidStudioProjects/Assessment2_MusiCalcu/app/src/main/res/layout/happy_jazz.xml" value="0.165" />
+        <entry key="..\:/Users/karyl/AndroidStudioProjects/Assessment2_MusiCalcu/app/src/main/res/layout/happy_rnb.xml" value="0.25" />
+        <entry key="..\:/Users/karyl/AndroidStudioProjects/Assessment2_MusiCalcu/app/src/main/res/layout/happypop.xml" value="0.25" />
         <entry key="..\:/Users/karyl/AndroidStudioProjects/Assessment2_MusiCalcu/app/src/main/res/layout/instructions.xml" value="0.25" />
+        <entry key="..\:/Users/karyl/AndroidStudioProjects/Assessment2_MusiCalcu/app/src/main/res/layout/sad_ambient.xml" value="0.335" />
+        <entry key="..\:/Users/karyl/AndroidStudioProjects/Assessment2_MusiCalcu/app/src/main/res/layout/sad_country.xml" value="0.375" />
+        <entry key="..\:/Users/karyl/AndroidStudioProjects/Assessment2_MusiCalcu/app/src/main/res/layout/sad_gospel.xml" value="0.25" />
+        <entry key="..\:/Users/karyl/AndroidStudioProjects/Assessment2_MusiCalcu/app/src/main/res/layout/sad_jazz.xml" value="0.335" />
+        <entry key="..\:/Users/karyl/AndroidStudioProjects/Assessment2_MusiCalcu/app/src/main/res/layout/sad_pop.xml" value="0.335" />
+        <entry key="..\:/Users/karyl/AndroidStudioProjects/Assessment2_MusiCalcu/app/src/main/res/layout/sad_rnb.xml" value="0.21739130434782608" />
+        <entry key="..\:/Users/karyl/AndroidStudioProjects/Assessment2_MusiCalcu/app/src/main/res/layout/webpop.xml" value="0.19023224043715847" />
       </map>
     </option>
   </component>
