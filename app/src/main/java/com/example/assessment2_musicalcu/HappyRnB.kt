@@ -1,5 +1,6 @@
 package com.example.assessment2_musicalcu
 
+//a class function that creates the modal pop-up
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
